@@ -30,14 +30,6 @@ def draw_line_plot():
     fig.savefig('line_plot.png')
     return fig
 
-import calendar  # Certifique-se de importar o módulo calendar
-import matplotlib.pyplot as plt
-import pandas as pd
-
-import matplotlib.pyplot as plt
-import pandas as pd
-import calendar
-
 def draw_bar_plot():
     # Copiar e modificar os dados para o gráfico de barras mensais
     df_bar = df.copy()
